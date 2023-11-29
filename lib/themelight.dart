@@ -35,10 +35,10 @@ ThemeData lightTheme = ThemeData(
   ),
   textButtonTheme: TextButtonThemeData(
     style: ButtonStyle(
-      backgroundColor: MaterialStateProperty.all(Colors.deepOrange),  // Warna background deepOrange
+      backgroundColor: MaterialStateProperty.all(Colors.deepOrange),
       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
         RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15.0),  // Ubah radius sesuai keinginan Anda
+          borderRadius: BorderRadius.circular(15.0),
         ),
       ),
     ),
